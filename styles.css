@@ -1,0 +1,147 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.bienvenida h1{
+    text-align: center;
+    color: red;
+    margin: 56px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.bienvenida h2{
+    text-align: center;
+    color: rgb(143, 3, 3);
+    font-size: 18px;
+}
+
+.dark-melancholy-section {
+    padding-bottom: 30px;
+}
+
+.title-ropa{
+    color: #6e6e73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.sub-title-ropa{ 
+    color: #4f4f53;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.ropa-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ropa-ind{
+    width: 45%;
+    text-align: center;
+}
+
+.ropa-ind img{
+    width: 70%;
+    height: 70%;
+}
+
+.ropa-ind h3{
+    color: seashell;
+    margin: 10px 0;
+}
+
+.tallas-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tallas-ind{
+    max-width: 20%;
+    text-align: center;
+}
+
+.frase-tallas{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.tallas-ind h3{
+    color: white;
+    font-size: 60px;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.precio-camisetas-titulo{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(67, 101, 163);
+    font-size: 25px;
+}
+
+.precio-camisetas{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.precio-sudaderas-titulo{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(67, 101, 163);
+    font-size: 25px;
+}
+
+.precio-sudaderas{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.contenedor-footer{
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.titulo-final {
+    text-align: center;
+    margin: 20px;
+    color: rgb(24, 24, 24);
+    font-size: 30px;
+}
