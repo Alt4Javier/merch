@@ -1,0 +1,196 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.bienvenida h1{
+    text-align: center;
+    color: red;
+    margin: 56px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.bienvenida h2{
+    text-align: center;
+    color: rgb(143, 3, 3);
+    font-size: 18px;
+}
+
+.dark-melancholy-section {
+    padding-bottom: 30px;
+}
+
+.title-ropa{
+    color: #6e6e73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.sub-title-ropa{ 
+    color: #4f4f53;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.titulo-galeria{
+    margin-top: 40px;
+    margin-bottom: 18px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.agregar-imagen{
+    width: 60%;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fondo{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/WTH\ DESIGN.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.soundcloud-title{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.button {
+	background: #f38e30;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 20px;
+    padding-left: 10px;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+    border-radius: 4px 3px 6px / 2px 4px;
+	box-shadow: 0px 3px 0px #a86221;
+}
+
+.button span {
+	margin: auto;
+}
+
+.precio-camisetas-titulo{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(67, 101, 163);
+    font-size: 25px;
+}
+
+.precio-camisetas{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.precio-sudaderas-titulo{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(67, 101, 163);
+    font-size: 25px;
+}
+
+.precio-sudaderas{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.contenedor-footer{
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.titulo-final {
+    text-align: center;
+    margin: 20px;
+    color: rgb(24, 24, 24);
+    font-size: 30px;
+}
