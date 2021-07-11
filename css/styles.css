@@ -9,7 +9,32 @@ body{
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-.bienvenida h1{
+.flex-center{
+    justify-content: center;
+}
+
+#fondo{
+    height: 90vh;
+    background-image: url(../img/RESET-HODDIE-80-DARK-AESTHETIC.png);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    padding: 30px 10px;
+}
+
+nav > a{
+    color: white;
+    font-weight: 300;
+    text-decoration: underline;
+    margin-left: 140px;
+    text-align: center;
+}
+
+.title-merch{
     text-align: center;
     color: red;
     margin: 56px;
@@ -18,7 +43,7 @@ body{
     text-decoration: underline;
 }
 
-.bienvenida h2{
+.subtitle-merch{
     text-align: center;
     color: rgb(143, 3, 3);
     font-size: 18px;
@@ -103,16 +128,17 @@ body{
     cursor: pointer;
 }
 
-.flex-center{
+.flex-center-soundcloud{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#fondo{
+#fondo-soundcloud{
     width: 100%;
     height: 100%;
     background-image: url(../img/WTH\ DESIGN.png);
+    opacity: 0.7;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -174,6 +200,94 @@ body{
     margin-bottom: 10px;
     color: white;
     font-size: 50px;
+}
+
+.seccion-descarga{
+    padding-bottom: 30px;
+
+}
+
+.title-descarga{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.download-image-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-image-ind{
+    width: 38%;
+    text-align: center;
+}
+
+.download-title-image{
+    color: white;
+    font: 23px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.download-image-ind img{
+    width: 80%;
+    height: 80%;
+}
+
+.button-download-wallpaper{
+	background:#5f74e9;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+	padding:10px 0;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #272f72;
+}
+
+.button-download-poster{
+	background:#5f74e9;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+	padding:10px 0;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #272f72;
+}
+
+.button-download-wth-cell-phone-background{
+    background:#5f74e9;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+	padding:10px 0;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #272f72;
+}
+
+.button span {
+	margin-right:10px;
 }
 
 .contenedor-footer{
