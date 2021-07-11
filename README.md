@@ -4,7 +4,7 @@
 #### Cosas Nuevas:
 - Nuevo diseño de margin y padding de camisetas.
 - Nuevo boton añadido (beta) *todavia sigo trabajando en eso*.
-- Removido seccion: Tallas - *despues se va a volver a la normalidad, solo es un bug de la pagina como tal.
+- Removido seccion: Tallas - *despues se va a volver a la normalidad, solo es un bug de la pagina como tal*.
 
 #### Cosas Arregladas:
 - Margin de camisetas al entrar a la pagina.
