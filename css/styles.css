@@ -1,11 +1,10 @@
-*{
+* {
     background-color: black;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
@@ -14,9 +13,8 @@ body{
 }
 
 #fondo{
-    height: 90vh;
-    background-image: url(../img/RESET-HODDIE-80-DARK-AESTHETIC.png);
-    opacity: 0.8;
+    height: 100vh;
+    background-image: linear-gradient(147deg, #00000075 0%, #04619f34 74%), url(../img/imagen-principal.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,39 +32,225 @@ nav > a{
     text-align: center;
 }
 
-.title-merch{
-    text-align: center;
+.textos-header{
+    margin-top: 30px;
+}
+
+.textos-header h1{
     color: red;
-    margin: 56px;
-    margin-bottom: 20px;
-    font-size: 50px;
+    margin: 50px;
+    font-size: 60px;
+    text-align: center;
     text-decoration: underline;
 }
 
-.subtitle-merch{
+.textos-header h2{
+    color: white;
+    margin: 5px;
     text-align: center;
-    color: rgb(143, 3, 3);
+    font-size: 25px;
+    font-weight: 300px;
+}
+
+.textos-header h3{
+    color: red;
+    margin: 16px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300px;
+}
+
+.textos-header h4{
+    color: rgb(138, 0, 0);
+    margin: 2px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.textos-header p{
+    color: white;
     font-size: 18px;
-}
-
-.dark-melancholy-section {
-    padding-bottom: 30px;
-}
-
-.title-ropa{
-    color: #6e6e73;
-    font-size: 30px;
+    margin: 28px;
     text-align: center;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.newsingle h1{
+    color: rgb(250, 134, 118);
+    margin: 50px;
     margin-bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.newsingle h2{
+    color: rgb(184, 94, 82);
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+}
+
+.newsingle p{
+    color: white;
+    font-size: 18px;
+    margin: 28px;
+    text-align: center;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.newsingle h3{
+    color: rgb(204, 104, 91);
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300px;
+}
+
+.tudasingle{
+    color: white;
+    font-size: 18px;
+    margin: 28px;
+    text-align: center;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.titulosin{
+    color: thistle;
+    text-decoration: underline;
+    font-size: 60px;
+    margin: 5px;
+    text-align: center;
+    font-weight: 300px;
+    margin-bottom: 10px;
     margin-top: 40px;
 }
 
-.sub-title-ropa{ 
-    color: #4f4f53;
-    font-size: 20px;
+.note{
+    margin: 5px;
     text-align: center;
-    margin-top: 8px;
+    font-size: 23px;
+    font-weight: 300px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.info{
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300px;
+    margin-top: 30px;
+}
+
+.new-ep{
+    font-size: 18px;
+}
+
+.titulo-dm{
+    color: rgb(60, 68, 77);
+    font-size: 50px;
+    text-decoration: underline;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.note-dm{
+    color: slategray;
+    margin: 5px;
+    font-size: 23px;
     margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.titulo-single-ep-memora{
+    color: rgb(160, 129, 27);
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.note-single-ep-memora{
+    color: rgb(112, 90, 18);
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.info-single-ep-memora{
+    margin-top: 10px;
+    margin-left: 140px;
+    margin-right: 200px;
+    font-size: 18px;
+    font-weight: 300px;
+    margin-top: 30px;
+    color: white;
+}
+
+.titulo-single-ep-reset{
+    color: red;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.note-single-ep-reset{
+    color: rgb(138, 0, 0);
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.info-single-ep-reset{
+    margin-top: 10px;
+    margin-left: 140px;
+    margin-right: 200px;
+    font-size: 18px;
+    font-weight: 300px;
+    margin-top: 30px;
+    color: white;
+}
+
+.CollabGamers {
+    text-align: center; 
+}
+
+.CollabGamers h1{
+    margin: 60px;
+    color: rgb(124, 176, 255);
+    text-align: center;
+    font-size: 60px;
+}
+
+.CollabGamers h2{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.CollabGamers p{
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.CollabGamers a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
 }
 
 .contenedor-galeria{
@@ -128,166 +312,10 @@ nav > a{
     cursor: pointer;
 }
 
-.flex-center-soundcloud{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#fondo-soundcloud{
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/WTH\ DESIGN.png);
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.soundcloud-title{
-    font-size: 20px;
-    color: white;
-    text-align: center;
-}
-
-.button {
-	background: #f38e30;
-	color: #fff;
-	display: inline-block;
-	font-size: 1.25em;
-	margin: 20px;
-    padding-left: 10px;
-	padding: 10px 0;
-	text-align: center;
-	text-decoration: none;
-    border-radius: 4px 3px 6px / 2px 4px;
-	box-shadow: 0px 3px 0px #a86221;
-}
-
-.button span {
-	margin: auto;
-}
-
-.precio-camisetas-titulo{
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 30px;
-    color: rgb(67, 101, 163);
-    font-size: 25px;
-}
-
-.precio-camisetas{
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: white;
-    font-size: 50px;
-}
-
-.precio-sudaderas-titulo{
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 30px;
-    color: rgb(67, 101, 163);
-    font-size: 25px;
-}
-
-.precio-sudaderas{
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: white;
-    font-size: 50px;
-}
-
-.seccion-descarga{
-    padding-bottom: 30px;
-
-}
-
-.title-descarga{
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.download-image-cont{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.download-image-ind{
-    width: 38%;
-    text-align: center;
-}
-
-.download-title-image{
-    color: white;
-    font: 23px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 14px;
-    margin-left: 13px;
-    margin-right: 13px;
-}
-
-.download-image-ind img{
-    width: 80%;
-    height: 80%;
-}
-
-.button-download-wallpaper{
-	background:#5f74e9;
-	color:#fff;
-	display:inline-block;
-	font-size:1.25em;
-	margin:20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-	padding:10px 0;
-	text-align:center;
-	width:200px;
-	text-decoration:none;
-	box-shadow:0px 3px 0px #272f72;
-}
-
-.button-download-poster{
-	background:#5f74e9;
-	color:#fff;
-	display:inline-block;
-	font-size:1.25em;
-	margin:20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-	padding:10px 0;
-	text-align:center;
-	width:200px;
-	text-decoration:none;
-	box-shadow:0px 3px 0px #272f72;
-}
-
-.button-download-wth-cell-phone-background{
-    background:#5f74e9;
-	color:#fff;
-	display:inline-block;
-	font-size:1.25em;
-	margin:20px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-	padding:10px 0;
-	text-align:center;
-	width:200px;
-	text-decoration:none;
-	box-shadow:0px 3px 0px #272f72;
-}
-
-.button span {
-	margin-right:10px;
+.footer{
+    background: #2e2e2e;
+    padding: 60px 0 30px 0;
+    overflow: hidden;
 }
 
 .contenedor-footer{
@@ -298,13 +326,53 @@ nav > a{
     border-bottom: 1px solid #ccc;
 }
 
-.content-foo {
+.content-foo{
     text-align: center;
 }
 
-.titulo-final {
+.titulo-final{
     text-align: center;
     margin: 20px;
     color: rgb(24, 24, 24);
     font-size: 30px;
+}
+
+.loader_animation{
+    position: fixed;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    transition: all 1.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}  
+
+.loader_animation div{
+    position: relative;
+}
+
+.loader_animation > div{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 2rem 0.8rem;
+    border-radius: 50%;
+    background-color: white;
+    animation: loader-animation .6s infinite alternate;
+}
+
+@keyframes loader-animation{
+    to{
+        opacity: .1;
+        transform: translate3d(0, -1rem, 0);
+    }
+}
+
+.loader_animation > div:nth-child(2){
+    animation-delay: .2s;
+}
+
+.loader_animation > div:nth-child(3){
+    animation-delay: .3s;
 }
