@@ -7,6 +7,7 @@
 - Removido seccion: Tallas - *despues se va a volver a la normalidad, solo es un bug de la pagina como tal*.
 - Añadido nueva Seccion: Download - Ahora ya puedes descargar posters y hacer uno de manera casera, wallpapers HD para PC y Movil.
 - Añadido imagen principal del sitio web como 'Banner principal' del la pagina web.
+- Nuevo loader (al entrar al sitio web vera una animacion indicando que esta cargando el sitio web.)
 
 
 #### Cosas Arregladas:
