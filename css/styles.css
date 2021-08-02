@@ -151,8 +151,18 @@ nav > a{
 	margin: auto;
 }
 
+.precios{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.precios-div{
+    display: flex;
+    justify-content: start;
+}
+
 .precio-camisetas-titulo{
-    margin-right: 50px;
+    margin-right: 10px;
     margin-left: 50px;
     margin-top: 30px;
     color: rgb(67, 101, 163);
@@ -161,35 +171,32 @@ nav > a{
 
 .precio-camisetas{
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: white;
     font-size: 50px;
 }
 
 .precio-sudaderas-titulo{
-    margin-right: 50px;
+    margin-right: 10px;
     margin-left: 50px;
     margin-top: 30px;
     color: rgb(67, 101, 163);
     font-size: 25px;
-    ;
 }
 
 .precio-sudaderas{
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: white;
     font-size: 50px;
-    ;
 }
 
 .seccion-descarga{
     padding-bottom: 30px;
-
 }
 
 .title-descarga{
