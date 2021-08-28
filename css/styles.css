@@ -15,140 +15,74 @@ body{
 
 #fondo{
     height: 90vh;
-    background-image: url(../img/RESET-HODDIE-80-DARK-AESTHETIC.png);
-    opacity: 0.8;
+    background-image: url(../img/darkmelancholy-products/RESET-HODDIE-80-DARK-AESTHETIC.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 nav{
-    padding: 30px 10px;
+    padding: 30px ;
 }
 
 nav > a{
     color: white;
     font-weight: 300;
     text-decoration: underline;
-    margin-left: 140px;
+    margin-left: 240px;
     text-align: center;
 }
 
-.title-merch{
-    text-align: center;
-    color: red;
-    margin: 56px;
-    margin-bottom: 20px;
-    font-size: 50px;
-    text-decoration: underline;
-}
-
-.subtitle-merch{
-    text-align: center;
-    color: rgb(143, 3, 3);
-    font-size: 18px;
-}
-
-.dark-melancholy-section {
+.advice-title{
+    background-color: rgb(219, 48, 48);
     padding-bottom: 30px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
 
-.title-ropa{
-    color: #6e6e73;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-
-.sub-title-ropa{ 
-    color: #4f4f53;
+.advice-title{
     font-size: 20px;
-    text-align: center;
-    margin-top: 8px;
-    margin-bottom: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 55px;
+    font-weight: 900;
 }
 
-.contenedor-cont{
+.favorite-galery-title{
+    font-size: 32px;
+    color: white;
+    text-align: left;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+    font-weight: bold;
+}
+
+.favorite-galery-cont{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.contenedor-galeria-ind{
+.favorite-galery-ind{
     width: 28%;
     text-align: center;
 }
 
-.contenedor-galeria-ind img{
+.img-favorite-galery{
     width: 93%;
     height: 93%;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
-.name-product{
+.favorite-galery a{
     color: white;
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-
-.button-shop{
-    background: rgb(255, 4, 4);
-    color: white;
-    display: inline-block;
-    font-size: 1.25em;
-    padding: 18px 10px;
-    text-align: center;
-    width: 160px;
-    text-decoration: none;
-    border-radius: 10px;
-    box-shadow: 0px 3px 0px rgb(105, 1, 1);
-}
-
-.icon{
-    margin-right: 5px;
-}
-
-.flex-center-soundcloud{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#fondo-soundcloud{
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/WTH\ DESIGN.png);
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.soundcloud-title{
-    font-size: 20px;
-    color: white;
-    text-align: center;
-}
-
-.button {
-	background: #f38e30;
-	color: #fff;
-	display: inline-block;
-	font-size: 1.25em;
-	margin: 20px;
-    padding-left: 10px;
-	padding: 10px 0;
-	text-align: center;
-	text-decoration: none;
-    border-radius: 4px 3px 6px / 2px 4px;
-	box-shadow: 0px 3px 0px #a86221;
-}
-
-.button span {
-	margin: auto;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    text-decoration: transparent;
 }
 
 .precios{
@@ -195,7 +129,126 @@ nav > a{
     font-size: 50px;
 }
 
-.seccion-descarga{
+.acclaimed-title{
+    color: white;
+    font-size: 38px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.contenedor-acclaimed-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-acclaimed-ind{
+    width: 30%;
+    text-align: center;
+}
+
+.contenedor-acclaimed-ind img{
+    width: 80%;
+    height: 80%;
+}
+
+.dark-melancholy-section{
+    padding-bottom: 30px;
+}
+
+.title-ropa{
+    color: white;
+    font-size: 38px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.contenedor-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-galeria-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.contenedor-galeria-ind img{
+    width: 93%;
+    height: 93%;
+}
+
+.tuda-section{
+    padding-bottom: 30px;
+}
+
+.title-tuda{
+    color: #FFA9F4;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    margin-top: 38px;
+}
+
+.contenedor-tuda-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-tuda-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.contenedor-tuda-ind img{
+    width: 70%;
+    height: 70%;
+}
+
+.name-product{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.product-price{
+    color: white;
+    font-weight: 860;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.button-shop{
+    background: rgb(255, 4, 4);
+    color: white;
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 18px 10px;
+    text-align: center;
+    width: 160px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px rgb(105, 1, 1);
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.download-section{
     padding-bottom: 30px;
 }
 
