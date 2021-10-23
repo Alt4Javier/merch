@@ -15,14 +15,14 @@ body{
 
 #fondo{
     height: 90vh;
-    background-image: url(../img/darkmelancholy-products/RESET-HODDIE-80-DARK-AESTHETIC.png);
+    background-image: url(../img/dimension-products/Dimension-hoddie-80-Outrun.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 nav{
-    padding: 30px ;
+    padding: 30px;
 }
 
 nav > a{
@@ -34,7 +34,7 @@ nav > a{
 }
 
 .advice-title{
-    background-color: rgb(219, 48, 48);
+    background: repeating-linear-gradient(-45deg, rgb(21,3,7) 2px, rgb(21,3,7) 2px, rgb(90, 22, 37) 5px, rgb(116, 28, 47) 7px);
     padding-bottom: 30px;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
@@ -129,6 +129,14 @@ nav > a{
     font-size: 50px;
 }
 
+.contenido-linea{
+    width: 50%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 3px;
+    background: radial-gradient(circle at center, #474747 , #0000);
+}
+
 .acclaimed-title{
     color: white;
     font-size: 38px;
@@ -181,6 +189,19 @@ nav > a{
 .contenedor-galeria-ind img{
     width: 93%;
     height: 93%;
+}
+
+.dimension-section{
+    padding-bottom: 30px;
+}
+
+.title-dimension{
+    color: #e650d2;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    margin-top: 38px;
 }
 
 .tuda-section{
